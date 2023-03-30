@@ -1,3 +1,6 @@
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
+
 import mission from './images/missin.png';
 import vision from './images/vision.png';
 import values from './images/values.png';
@@ -11,6 +14,16 @@ import telphone from './images/icon/telphone.png';
 import Footer from './footer';
 
 const About = () => {
+  useEffect(() => {
+    const sr = ScrollReveal({
+        duration: 1000,
+        delay: 200,
+        distance: '30px',
+        origin: 'bottom',
+        reset: true
+    });
+    sr.reveal('.about', { interval: 100 });
+}, []);
   return ( 
     <div className="contentAbout">
       <div className="about">

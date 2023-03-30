@@ -1,7 +1,19 @@
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 import Footer from "./footer";
 import contact from "./images/contact.png"
 
 const Contact = () => {
+    useEffect(() => {
+        const sr = ScrollReveal({
+            duration: 1000,
+            delay: 200,
+            distance: '30px',
+            origin: 'bottom',
+            reset: true
+        });
+        sr.reveal('.contentContact', { interval: 100 });
+    }, []);
     return ( 
         <div className="contentContact">
             <div className="contactContanier">

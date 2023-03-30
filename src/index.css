@@ -145,15 +145,11 @@ a:hover{
   border: 2px solid #EC823E;
   border-radius: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
-  background-color: transparent;
-  /* backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  -moz-backdrop-filter: blur(8px);
-  -o-backdrop-filter: blur(8px);
-  -ms-backdrop-filter: blur(8px); */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.div1{
+.div1 {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -161,6 +157,7 @@ a:hover{
 }
 
 .div2{
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -237,7 +234,7 @@ a:hover{
   border: 2px solid #FFF;
   border-radius: 100%;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
-  background-color: #FFF;    
+  background-color: #FFF;
 }
 
 .logCircle img{
@@ -453,7 +450,7 @@ a:hover{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 .titlenContent {

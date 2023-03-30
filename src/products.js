@@ -1,3 +1,6 @@
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
+
 import product1 from './images/product1.png';
 import product2 from './images/product2.png';
 import product3 from './images/product3.png';
@@ -18,12 +21,22 @@ import roll from './images/large/roll.png';
 import wallBranding from './images/large/Wall Branding.png';
 import Footer from './footer';
 
+
 const Products = () => {
+
+    useEffect(() => {
+        const sr = ScrollReveal({
+            duration: 1000,
+            delay: 200,
+            distance: '30px',
+            origin: 'bottom',
+            reset: true
+        });
+        sr.reveal('.firstParagraphContent', { interval: 100 });
+        sr.reveal('.paragraph2Content', { interval: 200 });
+    }, []);
     return ( 
         <div className="contentProducts">
-            {/* <div className="titleproducts">
-                <h1>Products</h1>
-            </div> */}
             <div className="productsContent">
                 <div className="firstParagraphContent">
                     <div className="inPrintingProductImg">
