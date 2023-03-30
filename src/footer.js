@@ -24,23 +24,37 @@ const Footer = () => {
             </div>
             <div className="footerContent">
                 <div className="footerProduct">
-                    <ul>
-                        <li>
-                            <h3>
-                                Product
-                            </h3>
-                        </li>
-                        <li>Agenda Printing</li>
-                        <li>Brosher Printing</li>
-                        <li>T-shirt Printing</li>
-                        <li>Calendar Printing</li>
-                        <li>Magazine Printing</li>
-                    </ul>
+                    <div className="titleFooter">
+                        <h3 className="title">
+                            Product
+                        </h3>
+                    </div>
+
+                    <div className="productContent">
+                        <div className="pRow1">
+                            <ul>
+                                <li>Agenda Printing</li>
+                                <li>Brosher Printing</li>
+                                <li>T-shirt Printing</li>
+                                <li>Calendar Printing</li>
+                                <li>Magazine Printing</li>
+                            </ul>
+                        </div>
+                        <div className="pRow2">
+                            <ul>
+                                <li>Cap Printing</li>
+                                <li>Vehicle Branding</li>
+                                <li>Wall Branding</li>
+                                <li>Sewing Fabric</li>
+                                <li>Digital Printing</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div className="footerLinks">  
                     <ul>
                         <li>
-                            <h3>
+                            <h3 className="title">
                                 Link
                             </h3>
                         </li>

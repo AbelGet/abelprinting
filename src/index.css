@@ -13,9 +13,17 @@ code {
     monospace;
 }
 
+*::selection {
+  background-color: #006EB1;
+}
+
+.title {
+  color: #006EB1;
+}
+
 .content{
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -668,12 +676,24 @@ ul h3 {
       color: #FFF;
     }
 
+    .footerProduct {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .productContent {
+      display: flex;
+      flex-direction: row;
+    }
+
     .footerLinks a{
       color: white;
     }
 
     .footerContact{
-      width: calc(40% - 100px);
+      width: calc(33.3% - 100px);
       background-color: #313E4E;
       height: auto;
       border-top-left-radius: 30px;
@@ -736,8 +756,6 @@ ul h3 {
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      /* background-color: #F7F7F7; */
-      /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); */
       padding: 10px;
       margin-right: 50px;
       border-radius: 20px;

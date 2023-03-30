@@ -31,7 +31,7 @@ const Products = () => {
                         <img src={product2} alt=""/>
                     </div>
                     <div className="paragraph">
-                        <h2>Printing Products</h2>
+                        <h2 className="title">Printing Products</h2>
                         <p>
                             Ranging from magazines, Brochures, Posters, Calendars,  Annual reports, and  Manuals. We are equipped with extensive capacity prints that resonate with our client’s brand and products and which match globally acceptable standards. Our professional services guarantee our clientele of impeccable precision and timely delivery. Complementing the printing company,  we boast of a thoroughly garnished finishing division equipped with an array of the most advanced machinery and equipment. 
                             <br /> 
@@ -52,7 +52,7 @@ const Products = () => {
                 </div>
                 <div className="paragraph2Content">
                     <div className="paragraph2">
-                        <h2>Large Format Printing </h2>
+                        <h2 className="title">Large Format Printing </h2>
                         <p>
                             If you dream to go,  we’ve got you covered. For special events,  trade shows,  sporting events, and grand openings our banners are printed on strong and durable media  We provide many large-format printing services that can suit your unique requirement. With high resolution,  vibrant colors,  durable materials, UV  gloss protection, and custom finishes you can count on a professional quality,  large format piece.  We can print banners up to 3m. wide and we also print a single large posterior mixed artwork at once. We print on a wide range of materials that can accommodate long-term, outdoor use.
                             <br /> 
@@ -64,7 +64,7 @@ const Products = () => {
                 </div>
 
                 <div className="productName">
-                    <h1>Product </h1>
+                    <h1 className="title">Product </h1>
                     <div className="row1">
                         <div>
                             <img src={product3} alt=""/>
@@ -98,7 +98,7 @@ const Products = () => {
                         
                     </div>
 
-                    <h1> Vehicle Branding </h1>
+                    <h1 className="title"> Vehicle Branding </h1>
                     
                     <div className="lrow2">
                         <div>
@@ -122,7 +122,7 @@ const Products = () => {
                         </div>
                     </div>
 
-                    <h1> Wall Branding </h1>
+                    <h1 className="title"> Wall Branding </h1>
 
                     <div className="lrow3">
                         <div>

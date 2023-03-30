@@ -7,6 +7,8 @@ import summuryimg1 from './images/summury_img1.png';
 import summuryimg2 from './images/summury_img2.png';
 import summuryimg3 from './images/summury_img3.png';
 import Footer from './footer';
+import Sewing from './images/sewing fabric.png';
+import Digital from './images/digital-printing.png';
 
 const Home = () => {
     return ( 
@@ -46,7 +48,7 @@ const Home = () => {
             </div>
             <div className="executiveSummary">
                 <div className="summaryTitle">
-                    <h2>Executive <br></br>Summary</h2>
+                    <h2 className="title">Executive <br></br>Summary</h2>
                 </div>
                 <div className="contentSummary">
                     <p>
@@ -55,8 +57,8 @@ const Home = () => {
                 </div>
                 <div className="imgs">
                     <img src={summuryimg1} alt="" />
-                    <img src={summuryimg2} alt="" />
-                    <img src={summuryimg3} alt="" />
+                    <img src={Digital} alt="" />
+                    <img src={Sewing} alt="" />
                 </div>
             </div>
             <Footer />

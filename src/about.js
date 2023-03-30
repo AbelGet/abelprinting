@@ -15,7 +15,7 @@ const About = () => {
     <div className="contentAbout">
       <div className="about">
         <div className="titlenContent">        
-          <h3 className='abouth3'>About</h3>
+          <h3 className='abouth3 title'>About</h3>
           <p>
             Abel Printing & Advertising Work, founded in 2010, is a full-service integrated advertising solution provider that serves the business and general public printing demands. We provide a wide range of advertising options, such as digital and static out-of-door and in-door advertising items including light boxes and reflective banners, display stands, stickers, automotive branding, wall branding, high-quality posters, and more.
             <br />
@@ -31,7 +31,7 @@ const About = () => {
         <div className="mission card">
           <div className="titleMission">
             <img src={mission} alt="" />
-            <h1>
+            <h1 className="title">
               Mission
             </h1>
           </div>
@@ -44,7 +44,7 @@ const About = () => {
         <div className="vision card">
           <div className="titleVision">
             <img src={vision} alt="" />
-            <h1>
+            <h1 className="title">
               Vision
             </h1>
           </div>
@@ -57,7 +57,7 @@ const About = () => {
         <div className="values card">
           <div className="titleValues">
             <img src={values} alt="" />
-            <h1>
+            <h1 className="title">
               Values
             </h1>
           </div>
@@ -85,7 +85,7 @@ const About = () => {
         <div className="alladdress">
         <div className="logNName">
           <img src={logoabout} alt="" />
-          <h3>
+          <h3 className="title">
             አቤል የህትመትና ማስታወቂያ ሥራ<br />
             Abel Printing & Advertising Work
           </h3>
