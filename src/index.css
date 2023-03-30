@@ -771,8 +771,6 @@ ul h3 {
       background-color: #DCEAFF;
     }
 
-   
-
     .email-input:focus:not(:placeholder-shown):not(:valid),
     .email-input:not(:valid){
       background-color: #e0c0c0;
@@ -799,11 +797,10 @@ ul h3 {
       border: none;
       border-radius: 10px;
       letter-spacing: 1px;
-  }
+    }
 
   .contactImg img {
     width: calc(100% - 10px);
     height: auto;
-    /* border: 1px solid; */
   }
 /* End of Contact us */

@@ -31,9 +31,7 @@ function App() {
             <NotFound />
           </Route>
         </Switch>
-        {/* <Footer /> */}
       </div>
-      {/*  */}
     </div>
     </Router>    
   );
