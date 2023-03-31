@@ -156,9 +156,9 @@ const About = () => {
             <img src={website} alt="" />
           </div>
           <div className="name">
-            <a href="#">
+            {/* <a href="#">
               www.abeladvert.com
-            </a>
+            </a> */}
           </div>
           </div>
         </address>
