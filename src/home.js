@@ -21,8 +21,7 @@ useEffect(() => {
     origin: 'bottom',
     reset: true
     });
-    sr.reveal('.allDiv', { interval: 100 });
-    sr.reveal('.title', { interval: 200 });
+    sr.reveal('.title', { interval: 100 });
     sr.reveal('.contentSummary p', { interval: 200 });
     sr.reveal('.imgs img', { interval: 200 });
   }, []);
@@ -42,7 +41,7 @@ useEffect(() => {
             </div>
             <div className='div2'>
               <div className="sidePic3 sidePic">
-                <img src={mug} alt=""/>
+                <img src={tshirt} alt=""/>
               </div>
               <div className="sidePic4 sidePic">
                 <img src={mug } alt=""/>
