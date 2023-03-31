@@ -14,7 +14,7 @@ const Contact = () => {
         });
         sr.reveal('.contentContact', { interval: 100 });
     }, []);
-    return ( 
+    return (
         <div className="contentContact">
             <div className="contactContanier">
                 <div className="form">
