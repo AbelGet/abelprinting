@@ -1,27 +1,143 @@
-/* Start of mobile view 
-.links{
-width: 200px;
-background-color: #3E4756;
-display: flex;
-flex-direction: column;
-align-items: center;
-flex: 1;
-margin-top: 30px;
-}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 
-a:hover{
-width: 500px;
-background-color: #A1ACBD;
-text-align: center;
-transform: scale(1.2);
-}
+    .logo {
+        margin-left: 10px;
+    }
 
-.active{
-color: purple;
-text-decoration: underline;
-width: 500px;
-background-color: ;
-text-align: center;
-transform: scale(1.1);
+    .logopic {
+        width: 40px;
+        height: 40px;
+    }
+
+    .links {
+        flex: 2;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .bottom {
+        width: 650px;
+        height: 650px;
+    }
+
+    .midle {
+        width: 600px;
+        height: 600px;
+    }
+
+    .top {
+        width: 500px;
+        height: 500px;
+    }
+
+    .sidePic img,
+    .sidePic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .sidePic1,
+    .sidePic2,
+    .sidePic3,
+    .sidePic4 {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+
+    .logoTitle h2 {
+        font-size: 30px;
+    }
+
+    .logCircle img {
+        width: 150px;
+        height: auto;
+    }
+
+    .summaryTitle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .contentSummary {
+        font-size: 30px;
+    }
+
+    .imgs img {
+        width: calc(33.33% - 50px);
+        height: 250px;
+    }
+
+    .firstParagraphContent {
+        flex-direction: column;
+    }
+
+    .inPrintingProductImg,
+    .inPrintingProductImg2 {
+        width: 50%;
+    }
+
+    .printingProductImg img,
+    .inPrintingProductImg img,
+    .inPrintingProductImg2 img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .paragraph,
+    .paragraph2 {
+        font-size: 18px;
+        width: 70%;
+        padding: 10px;
+    }
+
+    .paragraph2Content {
+        flex-direction: row;
+        margin-top: 100px;
+    }
+
+    .paragraph2Content img {
+        width: calc(33.33% - 20px);
+        margin: 20px;
+    }
+
+
+
+    .about {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .titlenContent {
+        width: 70%;
+        margin: 30px 0;
+    }
+
+    .aboutImg {
+        width: 70%;
+    }
+
+    .missionVisionValues {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: calc(50% - 20px);
+    }
+
+    .titleMission img,
+    .titleValues img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .titleVision img {
+        width: 50px;
+        height: 50px;
+    }
+
+
 }
-End of mobile view */

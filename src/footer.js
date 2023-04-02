@@ -45,7 +45,6 @@ const Footer = () => {
                             Product
                         </h3>
                     </div>
-
                     <div className="productContent">
                         <div className="pRow1">
                             <ul>
