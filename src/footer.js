@@ -9,20 +9,7 @@ import telphone from './images/icon/telphone.png';
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
-    // useEffect(() => {
-    //     const sr = ScrollReveal({
-    //     duration: 1000,
-    //     delay: 200,
-    //     distance: '30px',
-    //     origin: 'bottom',
-    //     reset: true
-    //     });
-    //     sr.reveal('.companyTitle', { interval: 100 });
-    //     sr.reveal('.title', { interval: 200 });
-    //     sr.reveal('.footerContact', { interval: 200 });
-    //     sr.reveal('.productContent', { interval: 200 });
-    //     sr.reveal('.footerLinks', { interval: 200 });
-    // }, []);
+
     return ( 
     <div className="footer">
             <div className="companyTitle">

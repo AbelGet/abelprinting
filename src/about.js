@@ -103,7 +103,6 @@ const About = () => {
             Abel Printing & Advertising Work
           </h3>
         </div>
-        <i class="fa-solid fa-location-dot fa-beat" style={{color:"#006eb3"}}></i>
 
         <address>
           <div className="location">

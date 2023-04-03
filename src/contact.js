@@ -12,7 +12,7 @@ const Contact = () => {
             origin: 'bottom',
             reset: true
         });
-        sr.reveal('.contentContact', { interval: 100 });
+        sr.reveal('.contactContanier', { interval: 100 });
     }, []);
     return (
         <div className="contentContact">

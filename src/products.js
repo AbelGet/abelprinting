@@ -33,7 +33,7 @@ const Products = () => {
             reset: true
         });
         sr.reveal('.firstParagraphContent', { interval: 100 });
-        sr.reveal('.paragraph2Content', { interval: 200 });
+        // sr.reveal('.paragraph2Content', { interval: 200 });
     }, []);
     return ( 
         <div className="contentProducts">
