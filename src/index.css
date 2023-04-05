@@ -2010,8 +2010,8 @@ textarea {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        width: 450px;
-        height: 450px;
+        width: 350px;
+        height: 350px;
         border: 2px solid #EC823E;
         border-radius: 100%;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
@@ -2021,8 +2021,8 @@ textarea {
     .midle {
         justify-content: flex-end;
         position: absolute;
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         border: 2px solid #935084;
         border-radius: 100%;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
@@ -2035,8 +2035,8 @@ textarea {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
         border: 2px solid #FFF;
         border-radius: 100%;
         box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
@@ -2082,11 +2082,16 @@ textarea {
     }
 
     .logoTitle {
-        margin: 10px;
+        margin: 0px;
+    }
+
+    .logCircle img {
+        width: 100px;
+        height: 100px;
     }
 
     .logoTitle h2 {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         color: #006eb1;
     }
