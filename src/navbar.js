@@ -11,7 +11,7 @@ const NavBar = () => {
     }
 
     document.getElementsByClassName("body").onclick = () => {
-        navRef.current.classList.remove("responsive_nav");
+        navRef.current.classList.toggle("responsive_nav");
 
     }
 
