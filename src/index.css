@@ -2009,7 +2009,7 @@ textarea {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         width: 350px;
         height: 350px;
         border: 2px solid #EC823E;
@@ -2046,19 +2046,19 @@ textarea {
     .div1 {
         position: relative;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        height: 100%;
+        width: 100%;
     }
 
     .div2 {
         position: relative;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        height: 100%;
+        width: 100%;
     }
 
     .sidePic img,
