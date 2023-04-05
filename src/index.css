@@ -37,7 +37,7 @@ code {
     .contentAbout,
     .contentProducts,
     .contactContanier {
-        padding: 250px 0 100px 0;
+        padding: 200px 0 100px 0;
         height: 100vh;
     }
 
@@ -903,20 +903,8 @@ textarea {
     
 
     /*=======Start of NavBar======= */
-
-    
-
-    
-
     a {
         font-size: 18px;
-    }
-    .links {
-        display: none;
-    }
-
-    .bar {
-        display: flex;
     }
     /*=======End of NavBar======= */
 
@@ -1137,14 +1125,6 @@ textarea {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
-    .links {
-        display: none;
-    }
-
-    .bar {
-        display: flex;
-    }
     /*==================Home Page==================*/
     .frontpic {
         height: 100vh;
