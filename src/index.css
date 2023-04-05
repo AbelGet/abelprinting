@@ -58,7 +58,7 @@ nav {
 .allNav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -74,20 +74,11 @@ nav {
     height: auto;
 }
 
-.bar {
-    display: none;
-    border: none;
-    background-color: transparent;
-}
-.bar img {
-    width: 35px;
-    height: auto;
-}
-
 .links {
     display: flex;
     justify-content: flex-end;
     padding-right: 10px;
+    align-items: center;
 }
 
 a {
@@ -105,6 +96,17 @@ a:hover {
 
 .active {
     color: purple;
+}
+
+.nav-btn {
+    visibility: hidden;
+    opacity: 0;
+    border: none;
+    background-color: transparent;
+}
+.nav-btn img {
+    width: 35px;
+    height: auto;
 }
 /* End of NavBar Styling */
 
@@ -1516,22 +1518,37 @@ textarea {
 @media screen and (min-width: 576px) and (max-width: 767px) {
     
     /*==================Start of NavBar==================*/
-    .allNav{
-        display: flex;
-        justify-content: space-between;
-    }
-    .links {
-        display: none;
-    }
-
-    .bar {
-        display: flex;
+    .nav-btn {
+        visibility: visible;
+        opacity: 1;
         left: 99%;
     }
 
-    .logo {
-        margin-left: 0;
+    .links {
+        position: fixed;
+        top: 0;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F7F7F7;
+        transition: 1s;
+        transform: translateY(-400px);
     }
+
+    .nav-close-btn {
+        position: absolute;
+        top: 0;
+        left: 90%;
+    }
+
+    .responsive_nav {
+        transform: none;
+    }
+
+    
     /*==================End of NavBar==================*/
     
     /*==================Start of Home Page==================*/
@@ -1967,7 +1984,7 @@ textarea {
 @media screen and (max-width: 575px) {
     /*==================Start of NavBar==================*/
     .logo {
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     .logopic {
@@ -1975,14 +1992,39 @@ textarea {
         height: 40px;
     }
 
-    .links {
-        display: none;
-    }
+    
 
-    .bar {
-        display: flex;
+    .nav-btn {
+        visibility: visible;
+        opacity: 1;
         left: 99%;
     }
+
+    .links {
+        position: fixed;
+        top: 0;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F7F7F7;
+        transition: 1s;
+        transform: translateY(-400px);
+    }
+
+    .nav-close-btn {
+        position: absolute;
+        top: 0;
+        left: 80%;
+    }
+
+    .responsive_nav {
+        transform: none;
+    }
+
+
     /*==================End of NavBar==================*/
     
     /*==================Start of Home Page==================*/

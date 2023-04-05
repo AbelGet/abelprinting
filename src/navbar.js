@@ -1,8 +1,15 @@
 import { NavLink } from "react-router-dom";
+import {useRef} from 'react';
 import logo from './images/abelLogo.png';
 import bar from './images/bar.png'
+import closebtn from './images/closebtn.png'
 
 const NavBar = () => {
+    const navRef = useRef();
+    const showNavbar = () => {
+        navRef.current.classList.toggle("responsive_nav");
+    }
+
     return (
         <nav className="navbar">
             <div className="allNav">
@@ -11,15 +18,17 @@ const NavBar = () => {
                         <img src={logo} alt="" className="logopic" />
                     </NavLink>
                 </div>
-                <div className="links">  
-                            
+                <div className="links" ref={navRef}>
                     <NavLink exact to="/">Home</NavLink>
                     <NavLink to="/Products">Products</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                     <NavLink to="/about">About</NavLink>
+                    <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                        <img src={closebtn} alt="" />
+                    </button>
                 </div>
                 <div>
-                    <button className="bar">
+                    <button className="nav-btn" onClick={showNavbar}>
                         <img src={bar} alt="" />
                     </button>
                 </div>
