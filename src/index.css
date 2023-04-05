@@ -1241,6 +1241,10 @@ textarea {
         align-items: center;
     }
 
+    .logoTitle h2 {
+        font-size: 32px;
+    }
+
     .executiveSummary {
         margin-top: 20px;
     }
