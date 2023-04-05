@@ -2016,6 +2016,14 @@ textarea {
         width: 40px;
         height: 40px;
     }
+
+    .links {
+        display: none;
+    }
+
+    .bar {
+        display: flex;
+    }
     
     /* .allNav {
         display: flex;
