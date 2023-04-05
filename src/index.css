@@ -913,12 +913,17 @@ textarea {
         height: 40px;
     }
 
-    .links {
-        flex: 2;
-    }
+    
 
     a {
         font-size: 18px;
+    }
+    .links {
+        display: none;
+    }
+
+    .bar {
+        display: flex;
     }
     /*=======End of NavBar======= */
 
