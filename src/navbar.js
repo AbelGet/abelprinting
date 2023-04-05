@@ -10,6 +10,11 @@ const NavBar = () => {
         navRef.current.classList.toggle("responsive_nav");
     }
 
+    document.getElementsByClassName("body").onclick = () => {
+        navRef.current.classList.remove("responsive_nav");
+
+    }
+
     return (
         <nav className="navbar">
             <div className="allNav">
