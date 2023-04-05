@@ -1139,6 +1139,14 @@ textarea {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .links {
+        display: none;
+    }
+
+    .bar {
+        display: flex;
+    }
     /*==================Home Page==================*/
     .frontpic {
         height: 100vh;
