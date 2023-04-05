@@ -881,6 +881,28 @@ textarea {
     resize: none;
 }
 
+.input-group-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+
+.input-group-btn .success {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.input-group-btn div img {
+    width: 40px;
+    height: auto;
+}
+
 .btnSubmit {
     width: 100px;
     border-radius: 11px;
