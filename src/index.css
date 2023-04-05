@@ -1522,6 +1522,7 @@ textarea {
 
     .bar {
         display: flex;
+        left: 99%;
     }
 
     .logo {
