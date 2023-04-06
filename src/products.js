@@ -12,6 +12,7 @@ import product7 from './images/product7.png';
 import product07 from './images/product07.png';
 import product8 from './images/product8.png';
 import product9 from './images/product9.jpg';
+import all from './images/all.png';
 
 import Vehicle1 from './images/large/Vehicle Branding 1.png';
 import Vehicle2 from './images/large/Vehicle Branding 2.png';
@@ -39,10 +40,6 @@ const Products = () => {
         <div className="contentProducts">
             <div className="productsContent">
                 <div className="firstParagraphContent">
-                    <div className="inPrintingProductImg">
-                        <img src={product1} alt=""/>
-                        <img src={product2} alt=""/>
-                    </div>
                     <div className="paragraph">
                         <h2 className="title">Printing Products</h2>
                         <p>
@@ -53,16 +50,10 @@ const Products = () => {
                         </p>
                     </div>
                     <div className="inPrintingProductImg2">
-                        <img src={product7} alt=""/>
-                        <img src={product8} alt=""/>
+                        <img src={all} alt=""/>
                     </div>
                 </div>
-                <div className="printingProductImg">
-                    <img src={product3} alt=""/>
-                    <img src={product4} alt=""/>
-                    <img src={product5} alt=""/>
-                    <img src={product6} alt=""/>
-                </div>
+                
                 <div className="paragraph2Content">
                     <div className="paragraph2">
                         <h2 className="title">Large Format Printing </h2>
