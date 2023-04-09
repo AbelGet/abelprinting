@@ -339,7 +339,7 @@ a:hover {
 .firstParagraphContent {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
     width: 100%;
@@ -356,8 +356,8 @@ a:hover {
 }
 
 .inPrintingProductImg2 img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin-top: 30px;
 }
 
@@ -980,26 +980,22 @@ input[type="text"]::first-letter, textarea::first-letter {
 
     /*=======Start of Product======= */
     .firstParagraphContent {
-        flex-direction: column;
-    }
-
-    .inPrintingProductImg,
-    .inPrintingProductImg2 {
-        width: 50%;
-    }
-
-    .printingProductImg img,
-    .inPrintingProductImg img,
-    .inPrintingProductImg2 img {
-        width: 250px;
-        height: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .paragraph,
     .paragraph2 {
         font-size: 18px;
-        width: 70%;
+        width: 60%;
         padding: 10px;
+    }
+
+    .inPrintingProductImg2 img{
+        width: 300px;
+        height: 300px;
     }
 
     .paragraph2Content {
@@ -1295,11 +1291,10 @@ input[type="text"]::first-letter, textarea::first-letter {
     }
 
     .printingProductImg img,
-    .inPrintingProductImg img,
     .inPrintingProductImg2 img {
-        width: 30%;
+        width: 500px;
         height: auto;
-        margin-top: 20px;
+        margin-top: 10px;
         border-radius: 10%;
         box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.8);
     }
@@ -1716,8 +1711,8 @@ input[type="text"]::first-letter, textarea::first-letter {
     .printingProductImg img,
     .inPrintingProductImg img,
     .inPrintingProductImg2 img {
-        width: 150px;
-        height: 150px;
+        width: 300px;
+        height: 300px;
         margin-top: 30px;
         border-radius: 10%;
         box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.8);
@@ -2197,8 +2192,8 @@ input[type="text"]::first-letter, textarea::first-letter {
     .printingProductImg img,
     .inPrintingProductImg img,
     .inPrintingProductImg2 img {
-        width: 150px;
-        height: 150px;
+        width: 350px;
+        height: 350px;
         margin-top: 30px;
         border-radius: 10%;
         box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.8);
