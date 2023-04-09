@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import ScrollReveal from 'scrollreveal';
 import Footer from "./footer";
 import contact from "./images/contact.png"
@@ -6,6 +6,8 @@ import emailjs from '@emailjs/browser';
 import success from "./images/success.png";
 
 const Contact = () => {
+    const [showDiv, setShowDiv] = useState(false);
+
     useEffect(() => {
         const sr = ScrollReveal({
             duration: 1000,
@@ -24,9 +26,10 @@ const Contact = () => {
         emailjs.sendForm('service_lg1gjsk', 'template_uowwfns', form.current, 'TCUZuvjfYwPZR8vOw')
         .then((result) => {
             // console.log(result.text);
+            setShowDiv(true);
             setTimeout(() => {
-                
-            }, 5000);
+                setShowDiv(false);
+            }, 5000);              
         }, (error) => {
             console.log(error.text);
         });
@@ -68,10 +71,10 @@ const Contact = () => {
                                 <button className="btnSubmit" type='submite'>Submitt</button>
                             </div>
                             
-                            <div className='success'>
+                            { showDiv && <div className='success'>
                                 <img src={success} alt="Success" />
                                 <label>You have successfully send email</label>
-                            </div>
+                            </div>}
                         </div>
                     </form>
                 </div>
