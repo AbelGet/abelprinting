@@ -5,12 +5,8 @@ import product1 from './images/product1.png';
 import product2 from './images/product2.png';
 import product3 from './images/product3.png';
 import product4 from './images/product4.png';
-import product5 from './images/product5.png';
 import product05 from './images/product05.png';
-import product6 from './images/product6.png';
-import product7 from './images/product7.png';
 import product07 from './images/product07.png';
-import product8 from './images/product8.png';
 import product9 from './images/product9.jpg';
 import all from './images/all.png';
 
@@ -36,6 +32,7 @@ const Products = () => {
         sr.reveal('.firstParagraphContent', { interval: 100 });
         // sr.reveal('.paragraph2Content', { interval: 200 });
     }, []);
+    
     return ( 
         <div className="contentProducts">
             <div className="productsContent">
@@ -66,7 +63,6 @@ const Products = () => {
                     </div>
                     <img src={product9} alt="" className='bigImg'/>
                 </div>
-
                 <div className="productName">
                     <h1 className="title">Product </h1>
                     <div className="row1">
@@ -79,7 +75,6 @@ const Products = () => {
                             <img src={product4} alt=""/>
                             <p>Brosher</p>
                         </div>
-
                         <div>
                             <img src={product05} alt=""/>
                             <p>T-shirt & Cape Printing</p>
@@ -101,7 +96,6 @@ const Products = () => {
                         </div>
                         
                     </div>
-
                     <h1 className="title"> Vehicle Branding </h1>
                     
                     <div className="lrow2">
@@ -125,9 +119,7 @@ const Products = () => {
                             <img src={Vehicle2} alt="" />                           
                         </div>
                     </div>
-
                     <h1 className="title"> Wall Branding </h1>
-
                     <div className="lrow3">
                         <div>
                             <img src={roll} alt="" />

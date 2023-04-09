@@ -61,7 +61,7 @@ const Contact = () => {
 
                         <div className="input-group">
                             <label>Message:</label>
-                            <textarea placeholder="Message" name='user_message'></textarea>
+                            <textarea placeholder="Message" name='user_message' rows="200"></textarea>
                         </div>
                         <div className="input-group-btn">
                             <div>
