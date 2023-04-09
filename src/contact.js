@@ -59,12 +59,12 @@ const Contact = () => {
 
                         <div className="input-group">
                             <label>Email:</label>
-                            <input type="email" placeholder="abeladvert@yahoo.com" className="email-input" name='user_email'/>
+                            <input type="email" placeholder="abeladvert@yahoo.com" className="email-input" name='user_email' required/>
                         </div>
 
                         <div className="input-group">
                             <label>Message:</label>
-                            <textarea placeholder="Message" name='user_message' rows="200"></textarea>
+                            <textarea placeholder="Message" name='user_message' rows="200" required></textarea>
                         </div>
                         <div className="input-group-btn">
                             <div>
