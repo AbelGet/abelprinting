@@ -35,11 +35,15 @@ code {
 
 .contentHome,
 .contentAbout,
-.contentProducts,
 .contactContanier {
-        padding: 200px 0 100px 0;
+        padding: 100px 0 100px 0;
         height: 100vh;
     }
+
+.contentProducts{
+    padding: 250px 0 100px 0;
+    height: 100vh;
+}
 
 /* End of Universal Styling  */
 
@@ -1671,11 +1675,11 @@ textarea {
     }
 
     .sidePic1:hover,
-.sidePic2:hover,
-.sidePic3:hover,
-.sidePic4:hover {
-    transform: scale(1.0);
-}
+    .sidePic2:hover,
+    .sidePic3:hover,
+    .sidePic4:hover {
+        transform: scale(1.0);
+    }
 
     .logoTitle {
         margin: 0px;
@@ -1750,6 +1754,7 @@ textarea {
     /*==================Start of Contact Page==================*/
     .contactContanier {
         width: 90%;
+        width: 100%;
         flex-direction: column-reverse;
     }
 
@@ -1757,9 +1762,32 @@ textarea {
         width: 90%;
     }
 
+    .contactContanier {
+        height: 100vh;
+        justify-content: space-around;
+        align-items: center;
+        /* margin: 50px 0; */
+    }
+
     .input-group {
         width: 80%;
     }
+
+    .contactContanier {
+        width: 90%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    .contactImg img {
+        width: 100%;
+        padding: 200p;
+    }
+
     /*==================End of Contact Page==================*/
 
     /*==================Start of About Page==================*/
@@ -1880,5 +1908,4 @@ textarea {
     }
 
     /*==================End of Footer==================*/
-
 }
