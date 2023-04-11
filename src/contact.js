@@ -27,6 +27,7 @@ const Contact = () => {
         .then((result) => {
             // console.log(result.text);
             setShowDiv(true);
+            e.target.reset();
             setTimeout(() => {
                 setShowDiv(false);
             }, 5000);              
@@ -34,7 +35,6 @@ const Contact = () => {
             console.log(error.text);
         });
         
-        e.target.reset();
     };
     return (
         <div className="contentContact">
@@ -68,7 +68,7 @@ const Contact = () => {
                         </div>
                         <div className="input-group-btn">
                             <div>
-                                <button className="btnSubmit" type='submite'>Submitt</button>
+                                <button className="btnSubmit" type='submite'>Submit</button>
                             </div>
                             
                             { showDiv && <div className='success'>
