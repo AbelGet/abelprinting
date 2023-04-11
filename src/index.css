@@ -1627,13 +1627,13 @@ textarea {
 
     .bottom {
         flex-direction: column;
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 
     .midle {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 
     .top {
@@ -1645,12 +1645,15 @@ textarea {
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
+        z-index: 1;
     }
 
     .div2 {
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
+        z-index: 1;
+
     }
 
     .sidePic img,
@@ -1663,21 +1666,29 @@ textarea {
     .sidePic2,
     .sidePic3,
     .sidePic4 {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     }
+
+    .sidePic1:hover,
+.sidePic2:hover,
+.sidePic3:hover,
+.sidePic4:hover {
+    transform: scale(1.0);
+}
 
     .logoTitle {
         margin: 0px;
     }
 
     .logCircle img {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     }
 
     .logoTitle h2 {
-        font-size: 20px;
+        font-size: 18px;
+        
     }
 
     .executiveSummary {
