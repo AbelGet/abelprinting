@@ -145,9 +145,6 @@ const About = () => {
               <a href="mailto: abeladvert@yahoo.com">
                 abeladvert@yahoo.com
               </a>
-              <a href="mailto: getumrt2435@gmail.com">
-                getumrt2435@gmail.com
-              </a>
             </div>
           </div>
         </address>
