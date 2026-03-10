@@ -155,9 +155,9 @@ const About = () => {
             <img src={website} alt="" />
           </div>
           <div className="name">
-            {/* <a href="#">
-              www.abeladvert.com
-            </a> */}
+            <a href="https://abelprinting.netlify.app">
+              Website
+            </a>
           </div>
           </div>
         </address>
