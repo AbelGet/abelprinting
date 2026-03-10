@@ -150,16 +150,6 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="website">
-          <div className="icon">
-            <img src={website} alt="" />
-          </div>
-          <div className="name">
-            <a href="https://abelprinting.netlify.app">
-              Website
-            </a>
-          </div>
-          </div>
         </address>
         </div>
       </div>
